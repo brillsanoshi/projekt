@@ -4,7 +4,7 @@ require 'conn.php';
 
  
 
-$sql0="create database if not exists test";
+$sql0="create database if not exists db1178590";
 
 mysql_query($sql0) or die(mysql_error());
 
