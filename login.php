@@ -11,6 +11,7 @@ require('conn.php');
 $konto=mysql_real_escape_string(trim($_POST['konto']));
 
 $password=mysql_real_escape_string(trim($_POST['password']));
+header('Location:index.php');
 
 if ($konto!="" and $password!="")
 
